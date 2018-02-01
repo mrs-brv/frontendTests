@@ -1,6 +1,4 @@
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import pages.*;
 
 import static org.junit.Assert.assertTrue;
@@ -49,7 +47,7 @@ public class LoginTest extends ConfigFrontend {
         passwordPage.webWait(passwordPage.passwordInput, 15);
         mainLoginPage = new MainLoginPage(driver);
         mainLoginPage.isContentPage();
-        Thread.sleep(10000);
+//        Thread.sleep(10000);
 
     }
 }
